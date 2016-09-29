@@ -1,0 +1,194 @@
+/*header*/
+.header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: #F79C9C; 
+}
+.head-inner {
+    width: 80%;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    color: #FFF;
+    font-size: 40px;
+    font-family: Lobster, Monospace;
+}
+.nav-box {
+    position: relative;
+}
+.nav {
+    display: none;
+    position: absolute;
+    right: 10%;
+    top: 80px;
+    background-color: #F79C9C;
+    border-top: 1px solid #FFF;
+    line-height: 60px;
+}
+.nav li {
+    float: left;
+}
+.nav a {
+    padding: 15px;
+    font-size: 26px;
+    color: #DE6B73;
+}
+.nav a:hover {
+    color: #CEE6E6;
+}
+.nav .active {
+    background-color: #FFF7D6;
+}
+.nav-btn {
+    display: none;
+    color: #DE6B73;
+    float: right;
+    line-height: 20px;
+    margin: 35px 0;
+}
+.nav-btn:hover {
+    background-color: #FFF;
+}
+@media(max-width:500px){
+    .nav-btn{
+        display: inline-block;
+    }
+}
+@media(min-width:500px){
+    .nav {
+        display: block !important;
+        border-top: none;
+        top: 15px;
+        right: 0;
+    }
+}
+
+/*home*/
+.section-home img{
+    width: 100%;
+}
+.section-home .welcome {
+    margin-top: -35%;
+    margin-bottom: 30%;
+    width: 540px;
+    font-size: 60px;
+    color: #FFEF00;
+    font-family: Lobster, Monospace;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*portfolio*/
+.section-portfolio .portfolios {
+    float: left;
+    width: 46.5%;
+    border: 1px solid #F79C9C;
+    margin:15px;
+    text-align: center;
+    color: #F7846B;
+}
+.portfolios img{
+    width: 100%;
+}
+.portfolios img:hover {
+    opacity:.4;
+    filter:alpha(opacity=40);
+}
+
+.portfolios .name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.portfolios .detail {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 600px){
+    .section-portfolio .portfolios,
+    .contact,
+    .invite{
+        width: 95%;
+    }
+}
+/*Contact*/
+.contact,
+.invite {
+    float: left;
+    width: 39%;
+    margin: 30px;
+}
+.invite {
+    padding-right: 36px;
+    padding-left: 36px;
+}
+.contact {
+    padding-left: 20px;
+}
+.invite p {
+    margin-top: 16px;
+    font-size: 20px;
+}
+.invite .more {
+    font-size: 24px;
+    margin-top: 60px;
+}
+.invite a {
+    display: inline-block;
+    margin: 20px 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50%;
+}
+.invite a:hover {
+    background-color: #CEE6E6;
+    color: #E63A8C;
+}
+
+.contact input,
+.contact textarea {
+    font-size: 24px;
+}
+.contact li {
+    position: relative;
+    margin-top: 16px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #F7846B;
+}
+.contact .message {
+    height: 120px;
+}
+.contact textarea {
+    width: 100%;
+    padding-top: 10px;
+}
+.contact .btn {
+    padding: 6px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+.contact .btn,
+.invite a {
+    border: 1px solid #F7846B;
+    color: #FFF;
+    background-color: #EF9C94;
+}
+.contact .btn:hover {
+    color: #BDFFF7;
+}
+.contact .cue {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    color: #F7846B;
+}
