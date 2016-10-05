@@ -1,0 +1,255 @@
+/*公用样式*/
+input,
+textarea {
+	margin: 0;
+	padding: 0;
+}
+input,
+textarea {
+	outline: none;
+	border: none;
+	background-color: transparent;
+}
+textarea {
+	resize: none;
+}
+body {
+    padding-top: 70px;
+    background-color: #FFF7D6;
+    font-family: "Microsoft YaHei";
+}
+.wrap{
+    padding-top: 2rem;
+    background-color: #FFF;
+}
+@media(min-width:1000px){
+    .wrap {
+        padding-top: 6rem;
+    }
+}
+.title {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 3rem;
+    text-align: center;
+    color: #F7846B;
+    border-bottom: 2px solid #F7846B;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+.navbar-nav {
+    text-align:center;
+}
+.nav li {
+    display:inline-block;
+}
+.navbar {
+    border: 0;
+    margin-bottom: 0;
+}
+.navbar .navbar-header {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+@media(min-width:768px){
+    .navbar-collapse {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+}
+.navbar-brand {
+    font-size: 34px;
+    font-family: Lobster, Monospace;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+    	    user-select: none;
+}
+.nav {
+    font-size: 20px;
+}
+@media(max-width:768px){
+    .container .navbar-collapse {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+@media(min-width:768px){
+    .navbar {
+        background-color: #F79C9C;
+    }
+}
+.navbar-girl .navbar-header,
+.navbar-girl .navbar-collapse {
+    background-color: #F79C9C;
+}
+.navbar-girl .navbar-brand {
+    color: #FFF;
+}
+.navbar-girl .navbar-text {
+    color: #F7846B;
+}
+.navbar-girl .navbar-nav > li > a {
+    color: #F7846B;
+}
+.navbar-girl .navbar-nav > li > a:hover,
+.navbar-girl .navbar-nav > li > a:focus {
+    color: #CEE6E6;
+    background-color: transparent;
+}
+.navbar-girl .navbar-nav .active,
+.navbar-girl .navbar-nav .active:hover,
+.navbar-girl .navbar-nav .active:focus {
+    color: #F7846B;
+    background-color: #FFF;
+}
+
+.navbar-girl .navbar-toggle {
+    border-color: #FFF;
+}
+.navbar-girl .navbar-toggle:hover,
+.navbar-girl .navbar-toggle:focus {
+    background-color: #CEE6E6;
+}
+.navbar-girl .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+.navbar-girl .navbar-collapse {
+    border-color: #FFF;
+}
+.toTop {
+    z-index: 1;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 3.5rem;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: #FFF;
+    background-color: #F7846B;
+    border: 1px solid #F7846B;
+}
+.toTop:hover {
+    background-color: #CEE6E6;
+    color: #FFEF00;
+}
+.toTop:focus {
+    color: #FFF;
+}
+@media(min-width:768px){
+    .toTop {
+        display: none;
+    }
+}
+/*home*/
+.home .welcome {
+    margin-top: -40%;
+    margin-bottom: 30%;
+    font-family:  Lobster, Monospace;
+    font-size: 4rem;
+    color: #FFEF00;
+}
+@media(min-width:768px){
+    .home .welcome {
+        font-size: 6rem;
+    }
+}
+/*portfolio*/
+.portfolio {
+    margin-bottom: 30px;
+}
+.portfolios {
+    margin-bottom: 15px;
+    border: 1px solid #F7846B;
+    color: #F7846B;
+}
+.portfolios h3 {
+    margin-top: 15px;
+}
+.portfolios img:hover {
+    opacity: .4;
+}
+/*contact*/
+.contact .email {
+    padding: 0 25px;
+    font-size: 2rem;
+}
+.contact .email input,
+.contact .email textarea
+{
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid #F7846B;
+}
+.contact .btn {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.btn-define {
+    color: #FFF;
+    background-color: #F79C9C;
+    border-color: #F7846B;
+}
+.btn-define:focus,
+.btn-define.focus {
+    color: #FFF;
+    background-color: #CEE6E6;
+    border-color: #CEE6E6;
+}
+.btn-define:hover {
+    color: #FFF;
+    background-color: #CEE6E6;
+    border-color: #CEE6E6;
+}
+.btn-define:active,
+.btn-define.active {
+    color: #FFF;
+    background-color: #CEE6E6;
+    border-color: #CEE6E6;
+}
+.email .cue {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    font-size: 14px;
+    color: #F7846B;
+}
+.email li {
+    position: relative;
+}
+.invite {
+    padding: 30px;
+}
+.invite p {
+    font-size: 1.5rem;
+}
+.invite .more {
+    margin-top: 70px;
+}
+.invite a {
+    margin-right: 15px;
+    color: #F79C9C;
+    font-size: 4rem;
+}
+.invite a:hover {
+    color: #CEE6E6;
+}
+/*copyright*/
+.copyright {
+    height: 50px;
+    line-height: 50px;
+    background-color: #F79C9C;
+}
+.copyright p {
+    margin-bottom: 0;
+    color: #FFF7D6;
+}
