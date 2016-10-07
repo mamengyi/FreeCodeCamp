@@ -1,6 +1,6 @@
 <?php
 header('Content-type: application/json');
-$jsoncallback = htmlspecialchars($_REQUEST ['jsoncallback']);
+$jsoncallback = $_GET ['jsoncallback'];
 $json_data = '[{
 		"quote":"If you can\'t get rid of the skeleton in your closet, you\'d best teach it to dance.",
 		"author":"George Bernard Shaw"
