@@ -1,13 +1,9 @@
 <?php
-
-$callback = $_GET["callback"];
-$a = array(
- 'code'=>'CA1998',
-    'price'=>'6000',
-    'tickets'=>20,
-    'func'=>$callback,
-);
-$result = json_encode($a);
-echo "flightHandler($result)";
-exit;
+header('Content-type: application/json');
+//获取回调函数名
+$jsoncallback = htmlspecialchars($_REQUEST ['jsoncallback']);
+//json数据
+$json_data = '["customername1","customername2"]';
+//输出jsonp格式的数据
+echo $jsoncallback . "(" . $json_data . ")";
 ?>
