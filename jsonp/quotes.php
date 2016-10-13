@@ -9,5 +9,4 @@ $a = array(
 );
 $result = json_encode($a);
 echo "flightHandler($result)";
-exit;
 ?>
