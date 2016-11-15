@@ -1,0 +1,40 @@
+body,
+.quote-box button{
+  -webkit-transition: background-color 1s;
+          transition: background-color 1s;
+}
+.quote-box {
+  width: 500px;
+  margin: 150px auto 0;
+  padding: 40px 50px;
+  background-color: #FFF;
+  border-radius: 4px;
+}
+
+.quote-box .quote {
+  font-size: 26px;
+  padding: 0 10px;
+}
+.quote-box .author {
+  margin-bottom: 30px;
+}
+.quote-box .update {
+  float: right;
+}
+.btn-change,
+.btn-change:focus {
+  color: #FFF;
+  border-color: transparent;
+}
+.btn-change:hover {
+  color: #FFF;
+  opacity: .7;
+}
+.quote-box .tweet {
+  font-size: 18px;
+  padding: 4px 10px;
+}
+footer {
+  margin-top: 10px;
+  color: #FFF;
+}
